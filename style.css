@@ -65,7 +65,23 @@
     height: 200px;
     width: 200px;
     padding: 10px;
+    border-radius: 15% 0% !important;
 }
+
+.campaigns .brand-area .first-row .col-lg-4 .single-brand > img:hover{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 0% 15% !important;
+    box-shadow: 10px 10px 10px -10px rgba(218, 14, 14, 0.5), inset 10px 10px 10px -10px rgba(218, 14, 14, 0.5);
+    padding: 20px;
+    /* background: #5c5353; */
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    filter: brightness(1.15);
+}
+
 .campaigns .brand-area{
     padding: 16px 100px;
     margin-bottom: 64px;
@@ -79,25 +95,38 @@
 .campaigns .brand-area .first-row .col-lg-4 > .single-brand{
     border: 1px solid var(--border-color);
     text-align: center;
-    /* padding: 2px 0px; */
     margin: 20px 0px;
     width: 200px;
-    height: 200px;
-    /* cursor: pointer;
-    transition: transform 0.4s ease; */
+    height: auto;
 }
 
 .campaigns .brand-area .first-row .col-lg-4 > .single-brand > .img{
     width: 50%;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 > .single-brand:hover{
+/* .campaigns .brand-area .first-row .col-lg-4 > .single-brand:hover{
     box-shadow: var(--box-shadow);
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
+} */
+
+.campaigns .brand-area .first-row .col-lg-4 > .single-brand > h3{
+    font-size: 20px;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 > .single-brand:hover > .img{
-    filter: brightness(0.15);
+.campaigns .brand-area .first-row .col-lg-4 > .single-brand > h5{
+    font-size: 10px;
 }
 
 /* Featured Campaigns Ends */
+
+/* Footer Starts */
+
+.footer{
+    color: grey;
+}
+
+.footer a{
+    color: grey;
+}
+
+/* Footer Ends */
