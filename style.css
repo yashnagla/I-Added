@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.image-container .img-fluid {
+    border-radius: 10% !important;
+}
+
 .content {
     position: absolute;
     top: 50%;
@@ -17,4 +21,11 @@
 
 .onImage {
     opacity: 1;
+    margin-top: 20%;
+    margin-right: 10%;
+    width: 700px;
 }
+
+/* .content h1{
+    font-size: 10px;
+} */
