@@ -13,12 +13,7 @@
     --white: #fff;
 }
 
-/* Navigation starts */
-.nav a{
-    color: grey;
-}
-
-.nav .btn {
+.btn {
     width: fit-content;
     margin-left: 10px;
     border-radius: 5px;
@@ -29,13 +24,19 @@
     transition: all 0.3s ease;
 }
 
-.nav .btn:hover {
+.btn:hover {
     background-color: var(--main);
     color: var(--white);
 }
 
-.nav .btn:active {
+.btn:active {
     background-color: #ccc;
+}
+
+
+/* Navigation starts */
+.nav a{
+    color: grey;
 }
 
 .nav span {
@@ -43,6 +44,25 @@
     color: var(--main) !important;
 }
 /* Navigation Ends */
+
+
+/* Popup Section Starts */
+
+.popup h3{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.modal-body{
+    background: linear-gradient(rgb(255, 255, 255), #789daa);
+    overflow-x: hidden;
+    color:black !important;
+    margin: -100px;
+    width: 700px;
+}
+
+/* Popup Section Ends */
 
 /* Image Section Starts */
 .image-container {
