@@ -7,10 +7,14 @@
     text-align: center;
 } */
 
+/* Navigation starts */
 .nav a,button{
     color: grey;
 }
 
+/* Navigation Ends */
+
+/* Image Section Starts */
 .image-container {
     position: relative;
 }
@@ -18,6 +22,7 @@
 .image-container .img-fluid {
     border-radius: 10% !important;
 }
+/* Image Section Starts */
 
 .content {
     position: absolute;
@@ -39,7 +44,10 @@
     height: 230px;
     
 }
+/* Image Section Starts */
 
+
+/* Content Section Starts */
 .join {
     height: 100%;
     margin: 0;
@@ -54,7 +62,7 @@
     font-size: 15px;
     padding: 20px;
 }
-
+/* Content Section Ends */
 
 
 /* Featured Campaigns Starts */
