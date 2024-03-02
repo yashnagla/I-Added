@@ -1,10 +1,17 @@
 /* Root CSS */
+html,
+body {
+    /* height: 100%; */
+    margin: 0;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
 :root {
     --main: #ff0000;
     --black: #000;
     --white: #fff;
 }
-
+/* Buttons */
 .btn {
     width: fit-content;
     margin-left: 10px;
@@ -36,11 +43,50 @@
 }
 /* Navigation Ends */
 
+/* Form Starts Here */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.form h1{
+    font-size: 25px;
+    font-weight: 750;
+}
+
+.form input{
+    width: 300px;
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
+
+.form input:hover{
+    background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+}
+
+.form select{
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+.form select:hover{
+    background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+}
+
+/* Form Ends Here */
+
 /* Footer Starts */
 
 .footer{
     color: grey;
-
 }
 
 .footer a{
