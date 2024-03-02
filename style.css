@@ -1,12 +1,4 @@
-/* html, body {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
-
+/* Root CSS */
 :root {
     --main: #ff0000;
     --black: #000;
@@ -33,7 +25,6 @@
     background-color: #ccc;
 }
 
-
 /* Navigation starts */
 .nav a{
     color: grey;
@@ -44,6 +35,31 @@
     color: var(--main) !important;
 }
 /* Navigation Ends */
+
+/* Footer Starts */
+
+.footer{
+    color: grey;
+
+}
+
+.footer a{
+    color: grey;
+}
+
+/* Footer Ends */
+
+
+/* Index.html Page Starts Here */
+/* html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
 
 
 /* Popup Section Starts */
@@ -181,14 +197,17 @@
 
 /* Featured Campaigns Ends */
 
-/* Footer Starts */
 
-.footer{
+/* Index.html Page Ends Here */
+
+/* sign_up.html Page Starts Here */
+
+.scroll{
     color: grey;
+    min-height: calc(1.5em +(1rem + 2px));
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .3rem;
+    font-weight: 400;
+    font-family: inherit;
 }
-
-.footer a{
-    color: grey;
-}
-
-/* Footer Ends */
