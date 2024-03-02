@@ -60,26 +60,31 @@ body {
     font-weight: 750;
 }
 
-.form input{
-    width: 300px;
+form div{
+    /* width: 300px; */
     margin: 20px 0px;
     transition: all 0.5s ease;
 }
 
-.form input:hover{
+form div:hover{
     background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
 }
 
-.form select{
+/* .form input:hover{
+    background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+} */
+
+/* .form select{
     width: 300px;
     transition: all 0.5s ease;
-}
+} */
 
-.form select:hover{
+/* .form select:hover{
     background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
-}
+} */
 
 /* Form Ends Here */
 
@@ -256,4 +261,19 @@ body {
     border-radius: .3rem;
     font-weight: 400;
     font-family: inherit;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0px 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
 }
