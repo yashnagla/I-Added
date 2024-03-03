@@ -268,6 +268,29 @@ form div:hover{
 /* about.html Page Starts Here */
 
 .image-container p,h1{
+    color: rgb(166, 111, 111);
+}
+
+.how_it_works{
+    padding: 10px;
+}
+
+.how_it_works .features{
+    border: 1px solid rgb(136, 96, 96);
+    justify-content: left;
+    text-align: left;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.how_it_works .features h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.how_it_works .features h3{
+    font-size: 15px;
+    font-weight: 350;
     color: red;
 }
 
@@ -286,7 +309,6 @@ form div:hover{
     width: 200px;
     height: 200px;
     display: flex;
-    border: yellow;
     border-radius: 10%;
 }
 
