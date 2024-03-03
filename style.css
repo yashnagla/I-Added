@@ -291,3 +291,69 @@ form div:hover{
 
 
 /* about.html Page Ends Here */
+
+
+/* contact.html Page Starts Here */
+
+.contact{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact h3{
+    font-size: 25px;
+}
+
+.contact h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact .form h1{
+    font-size: 25px;
+    font-weight: 750;
+}
+
+.contact form div{
+    /* width: 300px; */
+    margin: 20px 0px;
+    transition: all 0.5s ease;
+}
+
+.contact form div:hover{
+    background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 300px; */
+}
+.other div{
+    /* width: 300px; */
+    /* margin: 20px 0px; */
+    transition: all 0.5s ease;
+}
+
+.other div:hover{
+    background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+}
+
+/* contact.html Page Ends Here */
