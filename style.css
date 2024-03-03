@@ -18,16 +18,16 @@ body {
     width: fit-content;
     margin-left: 10px;
     border-radius: 5px;
-    background-color: var(--white);
-    color: var(--main);
+    background-color: var(--main);
+    color: var(--white);
     border: 1px solid var(--main);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 .btn:hover {
-    background-color: var(--main);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--main);
 }
 
 .btn:active {
@@ -35,9 +35,6 @@ body {
 }
 
 /* Navigation starts */
-.nav a{
-    color: grey;
-}
 
 .nav span {
     font-size: 1.5em;
@@ -269,6 +266,10 @@ form div:hover{
 
 
 /* about.html Page Starts Here */
+
+.image-container p,h1{
+    color: red;
+}
 
 .how_it_works{
     justify-content: center;
