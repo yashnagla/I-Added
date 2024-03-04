@@ -116,6 +116,13 @@ form div:hover{
 /* Popup Section Ends */
 
 /* Image Section Starts */
+
+.img{
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
 .image-container {
     position: relative;
 }
