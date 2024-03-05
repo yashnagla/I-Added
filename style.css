@@ -8,11 +8,13 @@ body {
     min-height: 100vh;
     margin: 0
 }
+
 :root {
     --main: #ff0000;
     --black: #000;
     --white: #fff;
 }
+
 /* Buttons */
 .btn {
     width: fit-content;
@@ -40,11 +42,12 @@ body {
     font-size: 1.5em;
     color: var(--main) !important;
 }
+
 /* Navigation Ends */
 
 /* Form Starts Here */
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,18 +57,18 @@ body {
     padding-bottom: 40px;
 }
 
-.form h1{
+.form h1 {
     font-size: 25px;
     font-weight: 750;
 }
 
-form div{
+form div {
     /* width: 300px; */
     margin: 20px 0px;
     transition: all 0.5s ease;
 }
 
-form div:hover{
+form div:hover {
     background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
 }
@@ -74,11 +77,11 @@ form div:hover{
 
 /* Footer Starts */
 
-.footer{
+.footer {
     color: grey;
 }
 
-.footer a{
+.footer a {
     color: grey;
 }
 
@@ -99,16 +102,16 @@ form div:hover{
 
 /* Popup Section Starts */
 
-.popup h3{
+.popup h3 {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.modal-body{
+.modal-body {
     background: linear-gradient(rgb(255, 255, 255), #789daa);
     overflow-x: hidden;
-    color:black !important;
+    color: black !important;
     margin: -100px;
     width: 700px;
 }
@@ -117,7 +120,7 @@ form div:hover{
 
 /* Image Section Starts */
 
-.img{
+.img {
     justify-content: center;
     align-items: center;
     /* text-align: center; */
@@ -130,6 +133,7 @@ form div:hover{
 .image-container .img-fluid {
     border-radius: 10% !important;
 }
+
 /* Image Section Starts */
 
 .content {
@@ -150,8 +154,9 @@ form div:hover{
     margin-right: 10%;
     width: 650px;
     height: 230px;
-    
+
 }
+
 /* Image Section Starts */
 
 
@@ -166,29 +171,30 @@ form div:hover{
     padding: 50px;
 }
 
-.join h3{
+.join h3 {
     font-size: 15px;
     padding: 20px;
 }
+
 /* Content Section Ends */
 
 
 /* Featured Campaigns Starts */
 
-.campaigns{
+.campaigns {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 .single-brand > img{
+.campaigns .brand-area .first-row .col-lg-4 .single-brand>img {
     height: 200px;
     width: 200px;
     padding: 10px;
     border-radius: 15% 0% !important;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 .single-brand > img:hover{
+.campaigns .brand-area .first-row .col-lg-4 .single-brand>img:hover {
     height: 200px;
     width: 200px;
     padding: 10px;
@@ -202,17 +208,17 @@ form div:hover{
     filter: brightness(1.15);
 }
 
-.campaigns .brand-area{
+.campaigns .brand-area {
     padding: 16px 100px;
     margin-bottom: 64px;
 }
 
-.campaigns .brand-area .first-row .col-lg-4{
+.campaigns .brand-area .first-row .col-lg-4 {
     display: flex;
     justify-content: center;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 > .single-brand{
+.campaigns .brand-area .first-row .col-lg-4>.single-brand {
     border: 1px solid var(--border-color);
     text-align: center;
     margin: 20px 0px;
@@ -220,7 +226,7 @@ form div:hover{
     height: auto;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 > .single-brand > .img{
+.campaigns .brand-area .first-row .col-lg-4>.single-brand>.img {
     width: 50%;
 }
 
@@ -229,11 +235,11 @@ form div:hover{
     transform: scale(1.1);
 } */
 
-.campaigns .brand-area .first-row .col-lg-4 > .single-brand > h3{
+.campaigns .brand-area .first-row .col-lg-4>.single-brand>h3 {
     font-size: 20px;
 }
 
-.campaigns .brand-area .first-row .col-lg-4 > .single-brand > h5{
+.campaigns .brand-area .first-row .col-lg-4>.single-brand>h5 {
     font-size: 10px;
 }
 
@@ -244,7 +250,7 @@ form div:hover{
 
 /* sign_up.html Page Starts Here */
 
-.scroll{
+.scroll {
     color: grey;
     min-height: calc(1.5em +(1rem + 2px));
     padding: .5rem 1rem;
@@ -254,17 +260,17 @@ form div:hover{
     font-family: inherit;
 }
 
-#emailHelp{
+#emailHelp {
     font-size: 12px;
     color: midnightblue;
     margin: 0px 5px;
 }
 
-#form-check{
+#form-check {
     flex-direction: row;
 }
 
-#form-check input{
+#form-check input {
     width: 24px;
     margin: 3px 0;
 }
@@ -274,15 +280,16 @@ form div:hover{
 
 /* about.html Page Starts Here */
 
-.image-container p,h1{
+.image-container p,
+h1 {
     color: rgb(166, 111, 111);
 }
 
-.how_it_works{
+.how_it_works {
     padding: 10px;
 }
 
-.how_it_works .features{
+.how_it_works .features {
     border: 1px solid rgb(136, 96, 96);
     justify-content: left;
     text-align: left;
@@ -290,29 +297,29 @@ form div:hover{
     padding: 20px;
 }
 
-.how_it_works .features h3{
+.how_it_works .features h3 {
     font-weight: 600;
     font-size: 25px;
 }
 
-.how_it_works .features h3{
+.how_it_works .features h3 {
     font-size: 15px;
     font-weight: 350;
     color: red;
 }
 
-.how_it_works{
+.how_it_works {
     justify-content: center;
     align-items: center;
     /* text-align: center; */
 }
 
-.how_it_works h2{
+.how_it_works h2 {
     font-size: 22.5px;
     font-weight: 750;
 }
 
-.how_it_works .col{
+.how_it_works .col {
     width: 200px;
     height: 200px;
     display: flex;
@@ -325,23 +332,23 @@ form div:hover{
 
 /* contact.html Page Starts Here */
 
-.contact{
+.contact {
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 50px;
 }
 
-.contact h3{
+.contact h3 {
     font-size: 25px;
 }
 
-.contact h4{
+.contact h4 {
     font-size: 15px;
     font-weight: 400;
 }
 
-.contact .form{
+.contact .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -351,23 +358,23 @@ form div:hover{
     padding-bottom: 40px;
 }
 
-.contact .form h1{
+.contact .form h1 {
     font-size: 25px;
     font-weight: 750;
 }
 
-.contact form div{
+.contact form div {
     /* width: 300px; */
     margin: 20px 0px;
     transition: all 0.5s ease;
 }
 
-.contact form div:hover{
+.contact form div:hover {
     background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
 }
 
-.other{
+.other {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -375,15 +382,145 @@ form div:hover{
     text-align: center;
     /* width: 300px; */
 }
-.other div{
+
+.other div {
     /* width: 300px; */
     /* margin: 20px 0px; */
     transition: all 0.5s ease;
 }
 
-.other div:hover{
+.other div:hover {
     background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
 }
 
 /* contact.html Page Ends Here */
+
+
+/* Donation Page Starts Here */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, 'poppins';
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+
+    /* width: 400px; */
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+
+.hero button {
+    /* display: flex; */
+    width: 100px;
+    height: 40px;
+    /* padding: 12px; */
+    cursor: pointer;
+
+}
+
+.hero h1 {
+    font-size: 80px;
+    color: cadetblue;
+    padding-bottom: 10px;
+
+}
+
+.hero h3 {
+    font-size: 25px;
+    padding-bottom: 30px;
+
+}
+
+.buttons {
+    padding: 20px;
+}
+
+#Fund-btn,
+#Food-btn,
+#Cloth-btn,
+#other-btn {
+    margin: 10px;
+    background: cadetblue;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: larger;
+
+}
+
+.fund-box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding-top: 0;
+    /* padding: 20px; */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+#donate-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Donation Page Ends Here */
