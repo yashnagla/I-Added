@@ -14,41 +14,28 @@
     align-items: center;
 }
 
-
-
-
-
 .hero {
     align-items: center;
     justify-content: center;
     text-align: center;
     min-height: 500px;
-
-    /* width: 400px; */
-    /* border: 1px solid black; */
-    /* display: flex; */
 }
 
 .hero button {
-    /* display: flex; */
     width: 100px;
     height: 40px;
-    /* padding: 12px; */
     cursor: pointer;
-
 }
 
 .hero h1 {
     font-size: 80px;
     color: cadetblue;
     padding-bottom: 10px;
-
 }
 
 .hero h3 {
     font-size: 25px;
     padding-bottom: 30px;
-
 }
 
 .buttons {
@@ -67,14 +54,12 @@
     border-radius: 20px;
     font-weight: 600;
     font-size: larger;
-
 }
 
 .fund-box {
     max-width: 400px;
     margin: 50px auto;
     padding-top: 0;
-    /* padding: 20px; */
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -84,7 +69,6 @@ h2 {
     text-align: center;
     color: #333;
 }
-
 
 form {
     margin-top: 20px;
