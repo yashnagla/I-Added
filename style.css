@@ -18,7 +18,7 @@ body {
     width: fit-content;
     margin-left: 10px;
     border-radius: 5px;
-    background-color: #5f9ea0;
+    background-color: red;
     color: var(--white);
     border: 1px solid #5f9ea0;
     cursor: pointer;
@@ -27,7 +27,7 @@ body {
 
 .btn:hover {
     background-color: #5f9ea0;
-    color: var(--main);
+    color: var(--white);
 }
 
 .btn:active {
