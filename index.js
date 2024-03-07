@@ -1,8 +1,10 @@
 const button1 = document.getElementById("dynamic-button-1");
 const button2 = document.getElementById("dynamic-button-2");
+const button3 = document.getElementById("dynamic-button-3");
 
 button1.innerText = "Donate";
 button2.innerText = "Register";
+button3.innerText = "Login";
 
 // Sign-Up Button
 document.getElementById("signUpButton").addEventListener("click", function () {
