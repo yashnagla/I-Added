@@ -66,8 +66,8 @@ form div{
 }
 
 form div:hover{
-    background-color: #dec7c7;
-    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+    background-color: cadetblue;
+    box-shadow: 2px 2px 5px 1px cadetblue;
 }
 
 /* Form Ends Here */
@@ -75,11 +75,11 @@ form div:hover{
 /* Footer Starts */
 
 .footer{
-    color: grey;
+    color: cadetblue;
 }
 
 .footer a{
-    color: grey;
+    color: cadetblue;
 }
 
 /* Footer Ends */
@@ -275,7 +275,8 @@ form div:hover{
 /* about.html Page Starts Here */
 
 .image-container p,h1{
-    color: rgb(166, 111, 111);
+    /* color: rgb(166, 111, 111); */
+    color: cadetblue;
 }
 
 .how_it_works{
@@ -363,8 +364,10 @@ form div:hover{
 }
 
 .contact form div:hover{
-    background-color: #dec7c7;
-    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+    /* background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5); */
+    background-color: cadetblue;
+    box-shadow: 2px 2px 5px 1px cadetblue;
 }
 
 .other{
@@ -377,13 +380,16 @@ form div:hover{
 }
 .other div{
     /* width: 300px; */
-    /* margin: 20px 0px; */
+    height: fit-content;
+    margin: 20px 0px;
     transition: all 0.5s ease;
 }
 
 .other div:hover{
-    background-color: #dec7c7;
-    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5);
+    /* background-color: #dec7c7;
+    box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5); */
+    background-color: cadetblue;
+    box-shadow: 2px 2px 5px 1px cadetblue;
 }
 
 /* contact.html Page Ends Here */
