@@ -66,8 +66,8 @@ form div{
 }
 
 form div:hover{
-    background-color: cadetblue;
-    box-shadow: 2px 2px 5px 1px cadetblue;
+    background-color: rgb(95, 158, 160);
+    box-shadow: 2px 2px 5px 1px rgb(95, 158, 160);
 }
 
 /* Form Ends Here */
