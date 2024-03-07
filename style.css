@@ -193,7 +193,7 @@ form div:hover{
     width: 200px;
     padding: 10px;
     border-radius: 0% 15% !important;
-    box-shadow: 10px 10px 10px -10px rgba(218, 14, 14, 0.5), inset 10px 10px 10px -10px rgba(218, 14, 14, 0.5);
+    box-shadow: 10px 10px 10px -10px rgb(95, 158, 160), inset 10px 10px 10px -10px rgb(95, 158, 160);
     padding: 20px;
     /* background: #5c5353; */
     text-align: center;
@@ -207,9 +207,10 @@ form div:hover{
     margin-bottom: 64px;
 }
 
-.campaigns .brand-area .first-row .col-lg-4{
+.campaigns .brand-area .first-row .col{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .campaigns .brand-area .first-row .col-lg-4 > .single-brand{
@@ -239,26 +240,26 @@ form div:hover{
 
 /* Featured Campaigns Ends */
 
-
 /* Index.html Page Ends Here */
+
 
 /* sign_up.html Page Starts Here */
 
-.scroll{
-    color: grey;
+/* .scroll{
+    color: cadetblue;
     min-height: calc(1.5em +(1rem + 2px));
     padding: .5rem 1rem;
     font-size: 1.25rem;
     border-radius: .3rem;
     font-weight: 400;
     font-family: inherit;
-}
+} */
 
-#emailHelp{
+/* #emailHelp{
     font-size: 12px;
     color: midnightblue;
     margin: 0px 5px;
-}
+} */
 
 #form-check{
     flex-direction: row;
@@ -276,15 +277,22 @@ form div:hover{
 
 .image-container p,h1{
     /* color: rgb(166, 111, 111); */
-    color: cadetblue;
+    color: #5f9ea0;
 }
 
 .how_it_works{
     padding: 10px;
 }
 
+.how_it_works{
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
 .how_it_works .features{
-    border: 1px solid rgb(136, 96, 96);
+    /* border: 1px solid rgb(136, 96, 96); */
+    border: 1px solid #5f9ea0;
     justify-content: left;
     text-align: left;
     border-radius: 10px;
@@ -293,19 +301,9 @@ form div:hover{
 
 .how_it_works .features h3{
     font-weight: 600;
-    font-size: 25px;
-}
-
-.how_it_works .features h3{
     font-size: 15px;
     font-weight: 350;
-    color: red;
-}
-
-.how_it_works{
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
+    color: #5f9ea0;
 }
 
 .how_it_works h2{
@@ -319,7 +317,6 @@ form div:hover{
     display: flex;
     border-radius: 10%;
 }
-
 
 /* about.html Page Ends Here */
 
@@ -366,8 +363,8 @@ form div:hover{
 .contact form div:hover{
     /* background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5); */
-    background-color: cadetblue;
-    box-shadow: 2px 2px 5px 1px cadetblue;
+    background-color: #5f9ea0;
+    box-shadow: 2px 2px 5px 1px #5f9ea0;
 }
 
 .other{
@@ -388,8 +385,8 @@ form div:hover{
 .other div:hover{
     /* background-color: #dec7c7;
     box-shadow: 2px 2px 5px 1px rgba(255, 0, 0, 0.5); */
-    background-color: cadetblue;
-    box-shadow: 2px 2px 5px 1px cadetblue;
+    background-color: #5f9ea0;
+    box-shadow: 2px 2px 5px 1px #5f9ea0;
 }
 
 /* contact.html Page Ends Here */
