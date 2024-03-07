@@ -82,6 +82,14 @@ form div:hover{
     color: cadetblue;
 }
 
+.footer .ql{
+    color: grey;
+}
+
+.footer .ql:hover{
+    color: yellow;
+}
+
 /* Footer Ends */
 
 
