@@ -18,15 +18,15 @@ body {
     width: fit-content;
     margin-left: 10px;
     border-radius: 5px;
-    background-color: var(--main);
+    background-color: #5f9ea0;
     color: var(--white);
-    border: 1px solid var(--main);
+    border: 1px solid #5f9ea0;
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 .btn:hover {
-    background-color: var(--white);
+    background-color: #5f9ea0;
     color: var(--main);
 }
 
@@ -38,7 +38,7 @@ body {
 
 .nav span {
     /* font-size: 1.5em; */
-    color: cadetblue !important;
+    color: #5f9ea0 !important;
 }
 /* Navigation Ends */
 
