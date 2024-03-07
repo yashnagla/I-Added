@@ -15,30 +15,30 @@ body {
 }
 /* Buttons */
 .btn {
-    width: -moz-fit-content;
+    width: fit-content;
     margin-left: 10px;
     border-radius: 5px;
-    background-color: #5f9ea0;
-    color: var(--main);
-    border: 1px solid red;
+    background-color: var(--main);
+    color: var(--white);
+    border: 1px solid var(--main);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 .btn:hover {
-    background-color: #5f9ea0;
-    color: #ffffff;
+    background-color: var(--white);
+    color: var(--main);
 }
 
 .btn:active {
-    background-color: #5f9ea0;
+    background-color: #ccc;
 }
 
 /* Navigation starts */
 
 .nav span {
-    font-size: 1.5em;
-    color: var(--main) !important;
+    /* font-size: 1.5em; */
+    color: cadetblue !important;
 }
 /* Navigation Ends */
 
