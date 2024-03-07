@@ -18,20 +18,20 @@ body {
     width: fit-content;
     margin-left: 10px;
     border-radius: 5px;
-    background-color: var(--main);
+    background-color: #5f9ea0;
     color: var(--white);
-    border: 1px solid var(--main);
+    border: 1px solid #5f9ea0;
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
 .btn:hover {
-    background-color: var(--white);
-    color: var(--main);
+    background-color: #5f9ea0;
+    color: #ffffff;
 }
 
 .btn:active {
-    background-color: #ccc;
+    background-color: #5f9ea0;
 }
 
 /* Navigation starts */
