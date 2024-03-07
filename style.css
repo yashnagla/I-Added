@@ -19,8 +19,8 @@ body {
     margin-left: 10px;
     border-radius: 5px;
     background-color: #5f9ea0;
-    color: var(--white);
-    border: 1px solid #5f9ea0;
+    color: var(--main);
+    border: 1px solid red;
     cursor: pointer;
     transition: all 0.5s ease;
 }
@@ -99,7 +99,7 @@ form div:hover{
 
 /* Popup Section Starts */
 
-.popup h3{
+/* .popup h3{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -111,7 +111,7 @@ form div:hover{
     color:black !important;
     margin: -100px;
     width: 700px;
-}
+} */
 
 /* Popup Section Ends */
 
@@ -164,6 +164,14 @@ form div:hover{
     align-items: center;
     text-align: center;
     padding: 50px;
+}
+
+.onImage p {
+    font-size: 17px;
+}
+
+.onImage h1,p {
+  text-shadow: 2px 2px 4px grey;
 }
 
 .join h3{
