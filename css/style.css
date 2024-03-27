@@ -68,12 +68,12 @@ li {
     padding: 6rem 0rem;
 }
 
-.title{
+.title {
     font-size: 1.8rem;
 }
 
-.title span{
-    color: red;    
+.title span {
+    color: red;
 }
 
 .container {
@@ -129,7 +129,7 @@ li {
 }
 
 /* Footer Section */
-.section-footer{
+.section-footer {
     background: var(--heading);
     transition: all 0.7s linear;
 }
@@ -139,12 +139,12 @@ li {
     margin-bottom: 1rem;
 }
 
-.f-about p{
+.f-about p {
     color: #adadad;
 }
 
 .f-links ul,
-.f-address address{
+.f-address address {
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
@@ -152,30 +152,30 @@ li {
 }
 
 .f-links li,
-.f-links a{
+.f-links a {
     font-size: 1.5rem;
     color: #adadad;
     text-transform: uppercase;
 }
 
 .f-links span,
-.f-address span{
+.f-address span {
     margin-right: 0.5rem;
 }
 
 .f-address p,
-.f-address p a{
+.f-address p a {
     font-style: normal;
     color: #adadad;
 }
 
-.container .f-social-icons{
+.container .f-social-icons {
     margin: 5rem 0 0 0;
     align-content: center;
     color: #adadad;
 }
 
-.f-social-icons .icons{
+.f-social-icons .icons {
     content: "";
     position: relative;
     padding: 1.4rem 1.8rem;
@@ -184,7 +184,7 @@ li {
     transform: translate(-50%, -50%);
     width: 6rem;
     height: 6rem;
-    color: var(--white); 
+    color: var(--white);
     border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
     background-color: var(--icons-bg);
     border: 1px solid var(--black);
@@ -272,13 +272,13 @@ li {
 
 /* Join Section Starts */
 
-.section-join{
+.section-join {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.section-join h2{
+.section-join h2 {
     color: var(--heading);
     font-size: 3rem;
     font-weight: 600;
@@ -290,9 +290,9 @@ li {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-  }
+}
 
-.section-join .container a{
+.section-join .container a {
     margin-top: 2rem;
 }
 
@@ -363,6 +363,7 @@ li {
     color: var(--white);
     text-transform: none;
 }
+
 /* Campaign Section Ends */
 
 
@@ -374,6 +375,7 @@ li {
     justify-content: center;
     align-items: center;
 }
+
 .works .features {
     border: 0.1rem solid #5f9ea0;
     justify-content: left;
@@ -518,4 +520,29 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Donation Section Endss */
+/* Donation Section Ends */
+
+
+/* Login Page Section Starts */
+
+.login h2 {
+    color: var(--heading);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.login span {
+    width: 6rem;
+    height: 3.2rem;
+}
+
+.login input {
+    width: 17.4rem;
+    height: 3.2rem;
+}
+
+.login .section {
+    align-content: center;
+}
+
+/* Login Page Section Ends */
