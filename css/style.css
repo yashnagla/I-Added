@@ -64,6 +64,14 @@ li {
 
 /* Reusable Code Section Starts */
 
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
 .section {
     padding: 6rem 0rem;
 }
@@ -529,10 +537,6 @@ button:hover {
     padding: 6rem 0rem 24rem 0rem;
 }
 
-/* .login .section .input span{
-    border: 0.1rem solid #5f9ea0;
-} */
-
 .form-contact .form-control {
     border: 1px solid #a8a8ac;
     border-radius: 1rem;
@@ -574,3 +578,10 @@ button:hover {
 }
 
 /* Login Page Section Ends */
+
+
+.container span > a{
+    color: var(--black);
+    text-transform: none;
+    text-decoration-color: var(--black);
+}
