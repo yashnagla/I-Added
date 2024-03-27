@@ -101,7 +101,7 @@ li {
     /* Here 4 is number of columns */
 }
 
-.btn {
+.button {
     background: var(--helper);
     padding: 0.8rem 1.6rem;
     border: none;
@@ -115,8 +115,8 @@ li {
     border-radius: 1rem;
 }
 
-.btn:hover,
-.btn:active {
+.button:hover,
+.button:active {
     box-shadow: var(--shadow);
 }
 
