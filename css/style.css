@@ -529,6 +529,30 @@ button:hover {
     padding: 6rem 0rem 24rem 0rem;
 }
 
+/* .login .section .input span{
+    border: 0.1rem solid #5f9ea0;
+} */
+
+.form-contact .form-control {
+    border: 1px solid #a8a8ac;
+    border-radius: 1rem;
+    height: 4.8rem;
+    width: 20rem;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.form-contact .form-control div > span{
+    border: 1px solid #a8a8ac;
+    border-radius: 1rem;
+    height: 4.8rem;
+    width: 20rem;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+
 .login h2 {
     color: var(--heading);
     font-size: 3rem;
