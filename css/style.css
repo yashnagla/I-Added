@@ -550,13 +550,39 @@ button:hover {
     height: 1.5rem;
 }
 
-.form-contact div > span{
+.form-contact div > span,
+.form-contact div > label,
+.form-contact div > textarea{
     height: 6rem;
     /* width: 20rem; */
     border: 0.18rem solid var(--heading);
     border-radius: 1rem;
     font-size: 1.5rem;
     background: transparent;
+}
+
+.form-contact div > input:hover,
+.form-contact div > input:active{
+    border: 0.18rem solid var(--heading);
+    box-shadow: var(--shadow);
+}
+
+.form-contact div > span:hover,
+.form-contact div > span:active{
+    border: 0.18rem solid var(--heading);
+    box-shadow: var(--shadow);
+}
+
+.form-contact div > textarea:hover,
+.form-contact div > textarea:active{
+    border: 0.18rem solid var(--heading);
+    box-shadow: var(--shadow);
+}
+
+.form-contact div > label:hover
+.form-contact div > label:active{
+    border: 0.18rem solid var(--heading);
+    box-shadow: var(--shadow);
 }
 
 .form-contact div > input{
