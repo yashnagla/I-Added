@@ -47,30 +47,30 @@
     <div class="container">
         <form class="form-contact">
             <h1>Create your I-Added Account</h1>
+            
             <div class="input-group mb-3 w-50 col-8">
                 <span class="input-group-text" id="basic-addon">Full Name</span>
-                <input type="text" class="form-control" placeholder="Full Name" aria-label="Fullname" aria-describedby="basic-addon1" required>
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Fullname" aria-describedby="basic-addon1" autocomplete="off" required>
             </div>
     
             <div class="input-group mb-3 w-50 col-8">
-                <input type="text" class="form-control" placeholder="E-Mail" aria-label="Mail I'd" aria-describedby="basic-addon2" required>
+                <input type="email" class="form-control" placeholder="E-Mail" aria-label="Mail I'd" aria-describedby="basic-addon2" autocomplete="off" required>
                 <span class="input-group-text" id="basic-addon2">@gmail.com</span>
             </div>
     
             <div class="input-group mb-3 w-50 col-8">
                 <span class="input-group-text" id="basic-addon1">Phone Number</span>
-                <input type="text" class="form-control" placeholder="Phone Number" aria-label="PhoneNumber" aria-describedby="basic-addon1" required>
+                <input type="number" class="form-control" placeholder="Phone Number" aria-label="PhoneNumber" aria-describedby="basic-addon1" autocomplete="off" required>
             </div>
             
             <div class="input-group mb-3 w-50 col-8">
                 <span class="input-group-text" id="basic-addon1">Password</span>
-                <input type="password" class="form-control" placeholder="Password" aria-label="Password" id="passwordInput" aria-describedby="basic-addon1" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" title="Must contain at least one lowercase letter, one uppercase letter, one digit, one special character, and be at least 8 characters long.">
+                <input type="password" class="form-control" placeholder="Password" aria-label="Password" id="passwordInput" aria-describedby="basic-addon1" required autocomplete="off">
             </div>
 
             <div class="input-group mb-3 w-50 col-8">
                 <span class="input-group-text" id="basic-addon1">Confirm Password</span>
-                <input type="password" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password"
-                    aria-describedby="basic-addon1" id="confirmPasswordInput" required>
+                <input type="password" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="basic-addon1" id="confirmPasswordInput" autocomplete="off" required>
             </div>
 
             <div class="form-check check-box">
