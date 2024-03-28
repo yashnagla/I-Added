@@ -419,6 +419,42 @@ a:focus {
     border-radius: 10%;
 }
 
+.other {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: center;
+}
+
+.other h2 {
+    color: var(--heading);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.other .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.other .container a {
+    margin-top: 2rem;
+}
+
+.other .form-contact span{
+    height: 6rem;
+    /* width: 20rem; */
+    border: 0.18rem solid var(--heading);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background: transparent;
+}
+
+
 /* About Section Ends */
 
 
@@ -550,9 +586,9 @@ button:hover {
     height: 1.5rem;
 }
 
-.form-contact div > span,
 .form-contact div > label,
-.form-contact div > textarea{
+.form-contact div > textarea,
+.form-contact div > span{
     height: 6rem;
     /* width: 20rem; */
     border: 0.18rem solid var(--heading);
