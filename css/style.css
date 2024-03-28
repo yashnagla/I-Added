@@ -16,6 +16,7 @@
     --bg: rgb(249, 249, 255);
     --black: #212529;
     --helper: #5f9ea0;
+    --helper-tint: #3e696a;
     --para: #777;
     --para-tint: #e4e4e4;
     --white: #fff;
@@ -39,7 +40,7 @@ h4 {
 
 h1 {
     color: var(--heading);
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
@@ -73,7 +74,7 @@ a:focus {
 }
 
 .section {
-    padding: 6rem 0rem;
+    padding: 3rem 0rem;
 }
 
 .title {
@@ -202,6 +203,8 @@ a:focus {
     border: 1px solid var(--black);
     animation: all 3s linear;
 }
+
+
 
 /* Reusable Code Section Ends */
 
@@ -521,7 +524,7 @@ textarea {
 #donate-btn {
     width: 100%;
     padding: 1rem;
-    background-color: #007bff;
+    background-color: var(--helper);
     border: none;
     border-radius: 0.4rem;
     color: #fff;
@@ -530,7 +533,7 @@ textarea {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: var(--helper);
 }
 
 /* Donation Section Ends */
@@ -538,27 +541,30 @@ button:hover {
 
 /* Login Page Section Starts */
 
-.login{
-    padding: 6rem 0rem 24rem 0rem;
+.contact_form{
+    align-content: center;
 }
 
-.form-contact .form-control {
-    border: 1px solid #a8a8ac;
+.form-contact .check-box input{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.form-contact div > span{
+    height: 6rem;
+    /* width: 20rem; */
+    border: 0.18rem solid var(--heading);
     border-radius: 1rem;
-    height: 4.8rem;
-    width: 20rem;
-    padding-left: 18px;
-    font-size: 13px;
+    font-size: 1.5rem;
     background: transparent;
 }
 
-.form-contact .form-control div > span{
-    border: 1px solid #a8a8ac;
-    border-radius: 1rem;
-    height: 4.8rem;
+.form-contact div > input{
+    height: 6rem;
     width: 20rem;
-    padding-left: 18px;
-    font-size: 13px;
+    border-radius: 1rem;
+    border: 0.18rem solid var(--heading);
+    font-size: 1.5rem;
     background: transparent;
 }
 
