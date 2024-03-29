@@ -1,3 +1,5 @@
+/* Reusable Code Section Starts */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
 
@@ -63,14 +65,13 @@ li {
     list-style: none;
 }
 
-/* Reusable Code Section Starts */
 
 a,
 a:visited,
 a:hover,
 a:active,
 a:focus {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .section {
@@ -205,10 +206,13 @@ a:focus {
 }
 
 @keyframes water-wave {
-    0%, 100%{
+
+    0%,
+    100% {
         border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
     }
-    50%{
+
+    50% {
         border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
     }
 }
@@ -454,7 +458,7 @@ a:focus {
     margin-top: 2rem;
 }
 
-.other .form-contact span{
+.other .form-contact span {
     height: 6rem;
     /* width: 20rem; */
     border: 0.18rem solid var(--heading);
@@ -586,18 +590,18 @@ button:hover {
 
 /* Login Page Section Starts */
 
-.contact_form{
+.contact_form {
     align-content: center;
 }
 
-.form-contact .check-box input{
+.form-contact .check-box input {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-.form-contact div > label,
-.form-contact div > textarea,
-.form-contact div > span{
+.form-contact div>label,
+.form-contact div>textarea,
+.form-contact div>span {
     height: 6rem;
     /* width: 20rem; */
     border: 0.18rem solid var(--heading);
@@ -606,31 +610,30 @@ button:hover {
     background: transparent;
 }
 
-.form-contact div > input:hover,
-.form-contact div > input:active{
+.form-contact div>input:hover,
+.form-contact div>input:active {
     border: 0.18rem solid var(--heading);
     box-shadow: var(--shadow);
 }
 
-.form-contact div > span:hover,
-.form-contact div > span:active{
+.form-contact div>span:hover,
+.form-contact div>span:active {
     border: 0.18rem solid var(--heading);
     box-shadow: var(--shadow);
 }
 
-.form-contact div > textarea:hover,
-.form-contact div > textarea:active{
+.form-contact div>textarea:hover,
+.form-contact div>textarea:active {
     border: 0.18rem solid var(--heading);
     box-shadow: var(--shadow);
 }
 
-.form-contact div > label:hover
-.form-contact div > label:active{
+.form-contact div>label:hover .form-contact div>label:active {
     border: 0.18rem solid var(--heading);
     box-shadow: var(--shadow);
 }
 
-.form-contact div > input{
+.form-contact div>input {
     height: 6rem;
     width: 20rem;
     border-radius: 1rem;
@@ -662,7 +665,7 @@ button:hover {
 /* Login Page Section Ends */
 
 
-.container span > a{
+.container span>a {
     color: var(--black);
     text-transform: none;
     text-decoration-color: var(--black);
